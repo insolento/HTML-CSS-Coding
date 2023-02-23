@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--Created by: Maksym Bezverkhnii - Student #301287637-->
+<html lang="en">
+    <head>
+        <title>Maksym Bezverkhnii - Home Page</title>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="allPage">
+            <header>
+                <nav>
+                    <ul>
+                        <li class="inline"><a href="index.html"><img alt="logo" src="contents/logo.png" id="logo"></a></li>
+                        <li class="inline"><a href="availableProperties.html">PROPERTIES</a></li>
+                        <li class="inline"><a href="contactForm.html">CONTACT ME FORM</a></li>
+                        <li class="inline"><a href="siteMapAndCreditPage.html">CREDIT PAGE</a></li>
+                        <li class="inline"><a href="mailto: advising@centennialcollege.ca">EMAIL ME</a></li>
+                        <li class="inline"><a href="http://studentweb.cencol.ca/mbezverk/index.html">Home Page</a></li>
+                        
+                    </ul>
+                </nav>
+            </header>
+            <form action="mailto:mbezverk@my.centennialcollege.ca" method="post">
+            <fieldset>
+                <legend>Personal Information:</legend>
+                <blockquote>
+                    <p>
+                        <label>Name:</label>
+                         <input id="txtFName" name="txtFName" size="25" tabindex="1" type="text" required="required">
+                    </p>
+                    <p>
+                        <label for="txtFName">Email:</label>
+                        <input id="txtFName" name="txtFName" size="25" tabindex="3" type="email" required="required">
+                    </p>
+                    <p>
+                        <label for="txtFName">Phone:</label>
+                        <input id="txtFName" name="txtFName" size="25" tabindex="5" type="text" required="required">
+                    </p>
+                    <p>
+                        <label>I am looking to:</label>
+                        <input id="optEdSec" name="optEd" tabindex="7" type="radio" value="Sec">Buy
+                        <input id="optEdCol" name="optEd" tabindex="9" type="radio" value="Col">Sell
+                        
+                    </p>
+                </blockquote>
+            </fieldset>
+            <fieldset>
+                <legend>Message:</legend>
+                <blockquote>
+                    <textarea id="txtSpecialReq" cols="100" name="txtSpecialReq" rows="14" tabindex="11" placeholder="--You can add anything what you want us to know--"></textarea>
+                </blockquote>
+            </fieldset>
+            <blockquote>
+
+                <input name="btnSubmit" tabindex="13" type="submit" value="Complete Registration">
+    
+                <input name="btnReset" tabindex="15" type="reset" value="Clear Form">
+            </blockquote>
+                </form>
+                <footer>
+                    <blockquote>
+                        <p id="copyright">&copy; Copyright Centennial College - Assignment 4 - Maksym Bezverkhnii - Student #301287637</p>
+                    </blockquote>
+                </footer>
+            </fieldset>
+        </div>
+    </body>
+</html>

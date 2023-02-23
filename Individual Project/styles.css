@@ -1,0 +1,240 @@
+body {
+    background-image: url(contents/background.jpeg);
+    background-size:contain;
+}
+.allPage {
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 1200px;
+    background-color: white;
+}
+.inline {
+    display: inline-block;
+    margin: 20px;
+}
+nav {   
+	background-color: white; 
+	font-weight: bold;
+	text-align: center; 
+	padding: 0;
+	box-shadow: 0 8px 6px -6px black;
+    width:1200px;
+} 
+img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#logo {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-right: 0px;
+}
+body {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+    display: flex;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#about {
+    border-bottom: 2px solid blue;
+    color: blue;
+    margin-left: 30px;
+    width: min-content;
+}
+#brocker {
+    width: 150px;
+}
+button {
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    border-color: blue;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+button:hover {
+    width: 170px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    border-color: blue;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+p,h2,h3 {
+    width:300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#agent {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+#more {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: blue;
+    text-align: center;
+}
+#properties {
+    margin-bottom: 40px;
+}
+ul {
+    margin-top: 0px;
+}
+li {
+    margin: 20px 0;
+}
+#clear {
+    color: white;
+}
+#propertyName {
+    width: 300px;
+}
+#propertiesButton {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    border-color: blue;
+    font-size: small;
+}
+#propertiesButton:hover {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    border-color: blue;
+    font-size: small;
+}
+#posts {
+    width: 450px;
+}
+#propertieslist {
+    margin-left: -60px;
+    height: 90px;
+}
+#copyright {
+    width: 100%;
+    height: 50px;
+}
+nav {
+    width: 1200px;
+}
+fieldset {
+	border-radius: 15px;
+	border-color: lightblue;
+	margin: 20px 20px;	
+}
+
+/* properties */
+.properties {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.price {
+    color: blue;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.right {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.features {
+    width: 600px;
+
+}
+.inlineFeat {
+    display: inline-block;
+    margin-right: 30px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+#propertieButton {
+    width: 200px;
+    height: 60px;
+    color: black;
+    border-radius: 20px;
+    border-color: blue;
+    font-size: medium;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#propertieButton:hover {
+    width: 200px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border-color: blue;
+    font-size: medium;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+hr {
+    border-style:solid; 
+    border-color:lightgray;
+    border-width:1px;
+    margin-left: 10px;
+}
+.blackHR {
+    border-style:solid; 
+    border-color:black;
+    border-width:1px;
+}
+.inlineB {
+    display: inline-block;
+    margin: 10px;
+}
+.inlineG {
+    display: inline-block;
+    margin: 10px;
+    color: darkslategray;
+}
+.descript {
+    margin-left: 20px;
+    background-color: #F0F8FF;
+    border-radius: 20px;
+    width: 70%;
+}
+.about {
+    color: #36454F;
+    width: 100%;
+    border: 0;
+}
+.description {
+    width: 80%;
+    margin: 40px;
+    color: darkslategray;
+}
